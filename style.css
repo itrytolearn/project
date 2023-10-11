@@ -1,0 +1,103 @@
+body {
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #333333;
+    margin: 0px;
+
+}
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+h1 {font-size: 36px;
+    margin: 20px 10px;
+}
+h2 {
+    margin-left: 50%;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+p {
+    font-size: 1.2em;
+}
+.header {
+   text-align: center;
+   width: 100%;
+}
+.img {
+    border-radius: 50%;
+}
+.get-in-touch{
+   display: inline-flex;
+   padding: 5px 10px 20px 10px;
+}
+.get-in-touch:hover {
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+}
+.logos {
+    justify-content: space-between;
+}
+.intro {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.projects {
+    margin-bottom: 30px;
+    width: 100%;
+}
+.project, .project-list, .project-list-item a{
+    font-size: 1.3em;
+}
+.intro a, .projects a {
+    display: inline-block;
+    position: relative;
+    color: #0090ff;
+    text-decoration: none;
+}
+.intro a:hover, .projects a:hover {
+    color: #555;
+}
+.intro a:before, .projects a:before{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 2px;
+    width: 100%;
+    background: #0090ff;
+    border-radius: 50px;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+.intro a:hover::before, .projects a:hover::before{
+    transform: scaleX(1);
+}
+li {
+    list-style-type: none;
+    justify-self: center;
+    font-size: 17px;
+}
+.project-list {
+    padding: 0px;
+}
+.row {
+   display: inline-flex;
+   width: 50%; 
+   word-break: break-word; 
+}
+.text-right {
+    width: 50%;
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 30px;
+    
+}
+.description {
+    width: 50%;
+}
+.project-list-item {
+ padding: 10px 0px;
+}
